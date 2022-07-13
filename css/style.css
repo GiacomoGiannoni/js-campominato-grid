@@ -4,3 +4,24 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    height: 40px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    line-height: 30px;
+}
+
+.input-container button{
+    padding: 5px 10px 5px;
+    cursor: pointer;
+}
