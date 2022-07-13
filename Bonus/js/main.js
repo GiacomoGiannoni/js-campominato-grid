@@ -22,3 +22,25 @@ function createGridSquare(number) {
 
         return currentElement;
 }
+/*
+function createGridSquare(number) {
+    const currentElement = document.createElement('div');
+    currentElement.classList.add('square_Medium');
+    const numberSquare = document.createElement('div');
+    numberSquare.classList.add('square-number');
+    numberSquare.append(number);
+    currentElement.append(number);
+
+    return currentElement;
+}
+
+function createGridSquare(number) {
+    const currentElement = document.createElement('div');
+    currentElement.classList.add('square_Hard');
+    const numberSquare = document.createElement('div');
+    numberSquare.classList.add('square-number');
+    numberSquare.append(number);
+    currentElement.append(number);
+
+    return currentElement;
+}*/
