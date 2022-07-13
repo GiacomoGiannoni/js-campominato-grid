@@ -22,7 +22,7 @@ function createGridSquare(number) {
 
         return currentElement;
 }
-/*
+
 function createGridSquare(number) {
     const currentElement = document.createElement('div');
     currentElement.classList.add('square_Medium');
@@ -43,4 +43,4 @@ function createGridSquare(number) {
     currentElement.append(number);
 
     return currentElement;
-}*/
+}

@@ -58,7 +58,7 @@ main {
     align-items: center;
     justify-content: center;
 }
-/*
+
 .square_Medium {
     width: calc(100% / 9);
     height: calc(100% / 9);
@@ -76,7 +76,6 @@ main {
     align-items: center;
     justify-content: center;
 }
-*/
 .square-number{
     display: none;
 }
