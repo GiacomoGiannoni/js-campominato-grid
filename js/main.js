@@ -5,7 +5,7 @@ for(let i = 1; i <= 100; i++){
     currentElement.addEventListener('click', 
         function() {
             this.classList.toggle('clicked');
-            console.log(i);
+            console.log(currentElement.textContent);
         }
     );
         gridDom.append(currentElement);
