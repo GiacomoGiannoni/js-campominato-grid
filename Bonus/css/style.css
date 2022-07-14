@@ -15,6 +15,11 @@ header{
     height: 40px;
 }
 
+img {
+    width: 40px;
+    margin-right: 10px;
+}
+
 .logo-container{
     display: flex;
     justify-content: center;
@@ -48,6 +53,15 @@ main {
     display: flex;
     flex-wrap: wrap;
 
+}
+
+#difficult {
+    margin: 10px;
+}
+
+button {
+    background-color: rgb(212, 212, 37);
+    border: 1px solid rgb(212, 212, 37);
 }
 
 .square{
