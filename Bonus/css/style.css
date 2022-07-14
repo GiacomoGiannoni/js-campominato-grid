@@ -59,28 +59,11 @@ main {
     justify-content: center;
 }
 
-.square_Medium {
-    width: calc(100% / 9);
-    height: calc(100% / 9);
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.square_hard {
-    width: calc(100% / 7);
-    height: calc(100% / 7);
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .square-number{
     display: none;
 }
 
-.clicked{
+.square.clicked{
     background-color: cyan;
 }
 
