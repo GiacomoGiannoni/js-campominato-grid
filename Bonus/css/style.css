@@ -51,25 +51,16 @@ main {
 }
 
 .square{
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.square-number{
-    display: none;
-}
-
 .square.clicked{
     background-color: cyan;
 }
 
-.clicked .square-number{
-    display: block;
-}
 
 .text{
     margin: 30px 0px 0px 10px;
