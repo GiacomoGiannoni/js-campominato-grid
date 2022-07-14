@@ -63,7 +63,7 @@ main {
     display: none;
 }
 
-.clicked{
+.square.clicked{
     background-color: cyan;
 }
 

@@ -5,19 +5,19 @@ for(let i = 1; i <= 100; i++){
     currentElement.addEventListener('click', 
         function() {
             this.classList.toggle('clicked');
-            console.log(currentElement.textContent);
+            console.log(i);
         }
     );
         gridDom.append(currentElement);
 }
 
-function createGridSquare(number){
+function createGridSquare(number) {
         const currentElement = document.createElement('div');
         currentElement.classList.add('square');
         const numberSquare = document.createElement('div');
         numberSquare.classList.add('square-number');
         numberSquare.append(number);
-        currentElement.append(number);
+        currentElement.append(numberSquare);
 
         return currentElement;
-    }
+}
